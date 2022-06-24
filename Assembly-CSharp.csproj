@@ -36,16 +36,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\ScoreManager.cs" />
-     <Compile Include="Assets\Script\BallController.cs" />
-     <Compile Include="Assets\Script\GawangManager.cs" />
      <Compile Include="Assets\Script\WinnerTransfer.cs" />
-     <Compile Include="Assets\Script\PaddlesController.cs" />
      <Compile Include="Assets\Script\GoalController.cs" />
      <Compile Include="Assets\Script\SpawnerController.cs" />
-     <Compile Include="Assets\Script\StaticVarWinner.cs" />
-     <Compile Include="Assets\Script\MainMenuController.cs" />
+     <Compile Include="Assets\Script\ScoreManager.cs" />
      <Compile Include="Assets\Script\ScoreController.cs" />
+     <Compile Include="Assets\Script\BallController.cs" />
+     <Compile Include="Assets\Script\MainMenuController.cs" />
+     <Compile Include="Assets\Script\StaticVarWinner.cs" />
+     <Compile Include="Assets\Script\PaddlesController.cs" />
+     <Compile Include="Assets\Script\GawangManager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

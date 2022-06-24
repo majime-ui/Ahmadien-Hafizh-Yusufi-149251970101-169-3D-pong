@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{debc923d-ab61-af8f-c5f9-5c72f7db1cf4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{16ba0ab1-330b-5b4f-b655-3a41c879e266}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{71be2f20-d821-a1ce-05f2-5d8db328a218}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{79b0e6d3-13f7-afe5-4329-6cb11c039b02}"
@@ -18,8 +20,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ProBuilder.KdTree", "Unity.ProBuilder.KdTree.csproj", "{e20a9275-ee8d-05ce-539f-d621ff76095e}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ProBuilder.Stl", "Unity.ProBuilder.Stl.csproj", "{f43e227d-9e1e-2908-310b-6f859ba7829d}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{16ba0ab1-330b-5b4f-b655-3a41c879e266}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.TestRunner", "UnityEditor.TestRunner.csproj", "{5d361213-36a8-36ec-1646-dd3098003898}"
 EndProject
@@ -56,6 +56,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{debc923d-ab61-af8f-c5f9-5c72f7db1cf4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{debc923d-ab61-af8f-c5f9-5c72f7db1cf4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16ba0ab1-330b-5b4f-b655-3a41c879e266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ba0ab1-330b-5b4f-b655-3a41c879e266}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71be2f20-d821-a1ce-05f2-5d8db328a218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71be2f20-d821-a1ce-05f2-5d8db328a218}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79b0e6d3-13f7-afe5-4329-6cb11c039b02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,8 +74,6 @@ Global
 		{e20a9275-ee8d-05ce-539f-d621ff76095e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f43e227d-9e1e-2908-310b-6f859ba7829d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f43e227d-9e1e-2908-310b-6f859ba7829d}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16ba0ab1-330b-5b4f-b655-3a41c879e266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16ba0ab1-330b-5b4f-b655-3a41c879e266}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5d361213-36a8-36ec-1646-dd3098003898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5d361213-36a8-36ec-1646-dd3098003898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25eb357e-c821-3f4d-46fa-2fbedb3dd311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
